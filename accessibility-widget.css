@@ -73,7 +73,7 @@
 .accessibility-icon {
     position: fixed !important;
     bottom: 20px !important;
-    left: 20px; !important;
+    left: 20px !important;
     width: 60px;
     height: 60px;
     background: var(--primary-color);
@@ -118,7 +118,7 @@
 
 
 .accessibility-panel.active {
-    right: 20px !important;
+    left: 20px !important;
     display: block !important;
     visibility: visible !important;
     opacity: 1 !important;
