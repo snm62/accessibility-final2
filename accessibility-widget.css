@@ -102,7 +102,7 @@
 .accessibility-panel {
     position: fixed !important;
     top: 20px !important;
-    right: -500px !important;
+    left: -500px !important;
     width: 400px;
     height: calc(100vh - 40px);
     background: #ffffff !important;
@@ -646,7 +646,7 @@ input:checked + .slider:before {
 .cognitive-disability .accessibility-icon {
     position: fixed !important;
     bottom: 20px !important;
-    right: 20px !important;
+    left: 20px !important;
     width: 60px !important;
     height: 60px !important;
     background: var(--primary-color) !important;
@@ -682,7 +682,7 @@ input:checked + .slider:before {
     border-radius: 12px !important;
     position: fixed !important;
     top: 20px !important;
-    right: -450px !important;
+    left: -450px !important;
     width: 400px !important;
     height: calc(100vh - 40px) !important;
     z-index: 100000 !important;
@@ -1960,21 +1960,21 @@ body.high-contrast .accessibility-widget-container *,
 @media (max-width: 768px) {
     .accessibility-panel {
         width: calc(100vw - 40px) !important;
-        right: -100vw !important;
+        left: -100vw !important;
         margin: 0 20px;
         top: 10px !important;
         height: calc(100vh - 20px);
     }
     
     .accessibility-panel.active {
-        right: 20px !important;
+        left: 20px !important;
     }
     
     .accessibility-icon {
         width: 50px;
         height: 50px;
         bottom: 15px !important;
-        right: 15px !important;
+        left: 15px !important;
     }
     
     .accessibility-icon i {
@@ -2026,20 +2026,20 @@ body.high-contrast .accessibility-widget-container *,
     .accessibility-panel {
         width: calc(100vw - 20px) !important;
         margin: 0 10px;
-        right: -100vw !important;
+        left: -100vw !important;
         top: 5px !important;
         height: calc(100vh - 10px);
     }
     
     .accessibility-panel.active {
-        right: 10px !important;
+        left: 10px !important;
     }
 
     .accessibility-icon {
         width: 45px;
         height: 45px;
         bottom: 10px !important;
-        right: 10px !important;
+        left: 10px !important;
     }
     
     .accessibility-icon i {
@@ -2088,18 +2088,18 @@ body.high-contrast .accessibility-widget-container *,
 
 /* Ensure panel is visible when active */
 .accessibility-panel.active {
-    right: 20px !important;
+    left: 20px !important;
 }
 
 @media (max-width: 768px) {
     .accessibility-panel.active {
-        right: 20px !important;
+        left: 20px !important;
     }
 }
 
 @media (max-width: 480px) {
     .accessibility-panel.active {
-        right: 10px !important;
+        left: 10px !important;
     }
 }
 
